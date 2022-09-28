@@ -1,4 +1,4 @@
-## Back-end in MVC Patter Template
+## Back-end in MVC Pattern Template
 
 ### Features:-
 - Basic Setup of a server
