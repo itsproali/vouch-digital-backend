@@ -1,4 +1,4 @@
-const { getTest } = require("../controllers/test.controller");
+const { getToken } = require("../controllers/user.controller");
 
 const router = require("express").Router();
 
@@ -15,6 +15,6 @@ router
    * @apiError {Object} status = 400 {success: false, }
    */
 
-.get("/", getTest);
+  .post("/get-token", getToken);
 
 module.exports = router;
