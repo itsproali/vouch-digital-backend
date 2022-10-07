@@ -13,5 +13,5 @@ app.use(errorHandler);
 
 // Server
 app.listen(port, () => {
-  console.log(`MVC Server Running on: ${port}`.blue.bold);
+  console.log(`Vouch Digital Server Running on: ${port}`.blue.bold);
 });

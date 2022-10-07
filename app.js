@@ -14,7 +14,7 @@ app.use("/client", clientRoute);
 
 // Default Route
 app.get("/", (req, res) => {
-  res.send("Welcome to MVC Pattern Server..!");
+  res.send("Welcome to Vouch Digital Server..!");
 });
 
 // Not Found Route
