@@ -7,6 +7,8 @@ const clientSchema = mongoose.Schema(
       type: String,
       required: true,
     },
+    website: String,
+    logo: String,
     email: {
       type: String,
       required: true,

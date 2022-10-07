@@ -26,6 +26,7 @@ exports.getClient = async (req, res, next) => {
 
 exports.addClient = async (req, res, next) => {
   try {
+    console.log(req.body);
     await Client.create(req.body);
     res
       .status(200)
